@@ -1,5 +1,5 @@
 //UC 1 To validate email abc.xyz@bridgelabz.co
-//to take input from command line
+///to take input from command line
 const prompt = require('prompt-sync')();
 let email = prompt('Enter email: ');
 validateEmail(email);

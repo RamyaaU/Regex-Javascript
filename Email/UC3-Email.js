@@ -1,6 +1,6 @@
 //UC 3 To validate email abc.xyz@bridgelabz.co
 //Ensure “.” after bridgelabz and validate the mandatory 3rd part i.e. co
-//to take input from command line
+///to take input from command line
 const prompt = require('prompt-sync')();
 let email = prompt('Enter email: ');
 validateEmail(email);

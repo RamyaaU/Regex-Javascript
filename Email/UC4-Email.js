@@ -1,6 +1,6 @@
 //UC 4 To validate email abc.xyz@bridgelabz.co
 //Ensure only following are valid special characters _,+_-,. preceeding to xyz
-//to take input from command line
+///to take input from command line
 const prompt = require('prompt-sync')();
 let email = prompt('Enter email: ');
 validateEmail(email);
