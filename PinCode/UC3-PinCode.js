@@ -1,4 +1,4 @@
-//UC 2 Check for 400088B – this should fail
+//UC 3 Check for 400088B – this should fail
 //to take input from command line
 const prompt = require('prompt-sync')();
 let pin = prompt('Enter pin: ');
